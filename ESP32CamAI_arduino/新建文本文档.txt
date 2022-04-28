@@ -1,0 +1,148 @@
+reset
+ff 2 0 dc 5
+ff 2 1 dc 5
+ff 2 2 dc 5
+
+ff 2 4 dc 5
+ff 2 5 dc 5
+ff 2 6 dc 5
+
+ff 2 e dc 5
+ff 2 d dc 5
+ff 2 c dc 5
+
+ff 2 a dc 5
+ff 2 9 dc 5
+ff 2 8 dc 5
+
+forward
+ff 2 0 c4 9  //左三角抬起
+ff 2 5 f4 1
+ff 2 2 c4 9
+
+ff 2 e 29 7  //左三角前进
+ff 2 9 8e 4
+ff 2 c 29 7
+
+ff 2 0 dc 5  //左三角放下
+ff 2 5 dc 5
+ff 2 2 dc 5
+
+ff 2 4 f4 1  //右三角抬起
+ff 2 1 c4 9
+ff 2 6 f4 1
+
+ff 2 e dc 5  //左三角复位
+ff 2 9 dc 5
+ff 2 c dc 5
+
+ff 2 a 8e 4  //右三角前进
+ff 2 d 29 7
+ff 2 8 8e 4
+
+ff 2 4 dc 5  //右三角放下
+ff 2 1 dc 5
+ff 2 6 dc 5
+
+ff 2 0 c4 9   //左三角抬起
+ff 2 5 f4 1
+ff 2 2 c4 9
+
+ff 2 a dc 5  //右三角复位
+ff 2 d dc 5
+ff 2 8 dc 5
+
+ff 2 0 dc 5   //左三角放下
+ff 2 5 dc 5
+ff 2 2 dc 5
+
+backward
+ff 2 0 c4 9
+ff 2 5 f4 1
+ff 2 2 c4 9
+
+ff 2 e 8e 4
+ff 2 9 29 7
+ff 2 c 8e 4
+
+ff 2 0 dc 5
+ff 2 5 dc 5
+ff 2 2 dc 5
+
+ff 2 4 f4 1
+ff 2 1 c4 9
+ff 2 6 f4 1
+
+ff 2 e dc 5
+ff 2 9 dc 5
+ff 2 c dc 5
+
+ff 2 a 29 7
+ff 2 d 8e 4
+ff 2 8 29 7
+
+ff 2 4 dc 5
+ff 2 1 dc 5
+ff 2 6 dc 5
+
+ff 2 0 c4 9
+ff 2 5 f4 1
+ff 2 2 c4 9
+
+ff 2 a dc 5
+ff 2 d dc 5
+ff 2 8 dc 5
+
+ff 2 0 dc 5
+ff 2 5 dc 5
+ff 2 2 dc 5
+
+left
+ff 2 4 f4 1
+ff 2 1 c4 9
+ff 2 6 f4 1
+
+ff 2 a 8e 4
+ff 2 d 8e 4
+ff 2 8 8e 4
+
+ff 2 4 dc 5
+ff 2 1 dc 5
+ff 2 6 dc 5
+
+ff 2 0 c4 9
+ff 2 5 f4 1
+ff 2 2 c4 9
+
+ff 2 a dc 5
+ff 2 d dc 5
+ff 2 8 dc 5
+
+ff 2 0 dc 5
+ff 2 5 dc 5
+ff 2 2 dc 5
+
+right
+ff 2 0 c4 9
+ff 2 5 f4 1
+ff 2 2 c4 9
+
+ff 2 e 29 7
+ff 2 9 29 7
+ff 2 c 29 7
+
+ff 2 0 dc 5
+ff 2 5 dc 5
+ff 2 2 dc 5
+
+ff 2 4 f4 1
+ff 2 1 c4 9
+ff 2 6 f4 1
+
+ff 2 e dc 5
+ff 2 9 dc 5
+ff 2 c dc 5
+
+ff 2 4 dc 5
+ff 2 1 dc 5
+ff 2 6 dc 5
